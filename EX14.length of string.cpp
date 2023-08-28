@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+	char Str[1000];
+	int i;
+	printf("Enter the String: ");
+	scanf("%s", Str);
+	for (i = 0; Str[i] != '\0'; ++i);
+		printf("Length of Str is %d", i);
+	printf("\n the length of string using function is :%d",strlen(Str));
+	return 0;
+}
